@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/bgimg.jpg');
+
+}
+#email{
+    margin: 5px;
+    border: 2px solid saddlebrown;
+}
+.form-floating{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#btn{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid purple;
+}
+#btn:hover{
+ transform: scale(1.1);
+}
+
+.clones{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.clon{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(118, 67, 185);
+    color:white;
+    border: 2px solid brown;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.clon:hover{
+ transform: scale(1.05);
+}
+h3{
+    color: white;
+}
+.navbar{
+    position: fixed;
+}
+.box{
+    background-image: url('/img/main.jpg');
+    width: 60%;
+    margin: auto;
+  }
+  .heading{
+      width: 50%;
+      text-align: left;
+      padding: 10px;
+      margin: 10px;
+  }
+  .main{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  img{
+      height: 200px;
+      width: 200px;
+      border-radius: 200px;
+      background-color: yellow;
+  }
